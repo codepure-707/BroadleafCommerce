@@ -60,7 +60,7 @@
         <hsqldb.version>2.7.2</hsqldb.version>
         <closure.compiler.version>v20180506</closure.compiler.version>
         <hibernate.version>6.2.34.Final</hibernate.version>
-        <jakarta.version>6.0.0</jakarta.version>
+        <jakarta.version>6.1.0</jakarta.version>
         <jakarta-xml.version>4.0.0</jakarta-xml.version>
         <jakarta-annotation.version>2.1.1</jakarta-annotation.version>
         <slf4j.version>2.0.17</slf4j.version>
@@ -185,7 +185,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -202,7 +202,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -223,7 +223,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
@@ -346,8 +346,8 @@
                         <id>default-cli</id>
                         <configuration>
                             <rules>
-                                <dependencyConvergence />
-                                <banDuplicatePomDependencyVersions />
+                                <dependencyConvergence/>
+                                <banDuplicatePomDependencyVersions/>
                             </rules>
                         </configuration>
                         <goals>
